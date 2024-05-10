@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar bg-dark bg-opacity-50 navbar-light navbar-expand-md bg-body-tertiary fixed-top"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span>
+            <img id="logo" height="60" src="./assets/images/logo1.png" /></span
+          ><span id="safe-span">safe</span
+          ><span id="security-span">security</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing_plans">price plans</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >pages</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">blog</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">products</a>
+                </li>
+                <a class="dropdown-item" href="#about">about</a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#team" class="nav-link">team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="header-text text-white">
+        <h5 class="mb-2 wow bounceInUp animate__bounceIn">
+          best security services <br />for you family
+        </h5>
+        <h1 class="fw-bold mb-5 wow bounceInUp animate__bounceIn">
+          safe& secure home
+        </h1>
+        <a
+          href="#services"
+          class="btn btn-info btn-lg me-3 wow bounceInLeft animate__bounceInLeft"
+          data-wow-duration="2s"
+          data-wow-delay="5s"
+          >read more</a
+        >
+        <a
+          href="#contact"
+          class="btn btn-danger btn-lg my-3 me-3 wow bounceInRight animate__bounceInRight"
+          data-wow-offset="10"
+          data-wow-iteration="10"
+        >
+          contact us</a
+        >
+      </div>
+    </header>
+
+    <section class="py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./assets/images/camera.jpg" height="625" />
+          </div>
+          <div class="col-md-8">
+            <h5 class="text-info">about us</h5>
+            <h3 class="display-4 fw-bold">
+              We Offers Quality CCTV <br />
+              Systems & Services
+            </h3>
+            <p class="lead my-3 fw-medium text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              quisquam deserunt, a nesciunt at ratione eius harum, nobis alias
+              asperiores rem libero dolorem! Facilis, nemo! Officia dolores
+              adipisci ducimus quibusdam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque cum, dolores dolorum soluta ducimus omnis quae
+              dignissimos tempore itaque minus non illo, quod nostrum officia
+              eveniet cupiditate architecto dolor corporis!
+            </p>
+            <div class="d-flex">
+              <div
+                class="bg-primary border-3 me-3 text-white border-bottom border-danger text-center p-3"
+              >
+                <i class="fa-solid fa-star fa-3x mb-3"></i>
+
+                <h6>15 years of experince</h6>
+              </div>
+              <div
+                class="bg-danger border-3 me-3 text-white border-bottom border-primary text-center p-3"
+              >
+                <i class="fa-solid fa-trophy fa-3x mb-3"></i>
+                <h6>award wining products</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="services">
+      <div class="container">
+        <h5 class="text-info text-center">services</h5>
+        <h3 class="display-4 fw-bold text-center">
+          Our Excellent CCTV <br />
+          Security Services
+        </h3>
+        <div class="row">
+          <script>
+            for (i = 1; i <= 12; i++) {
+              document.write(`
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                <div class="card p-3">
+                  <img class="w-50 mb-3" src="./assets/images/cctv-camera.png" />
+                  <h5 class="text-primary">cctv</h5>
+                  <h3>installation</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus at quos dolorem iure debitis vero deserunt porro magni
+                    mollitia iusto ad non dolor, reiciendis dicta consectetur
+                    similique voluptates, rem ipsum.
+                  </p>
+                  <a href="#" style="text-decoration: none">
+                    <i class="fa-solid fa-arrow-right"></i> read more</a
+                  >
+                </div>
+              </div>
+        
+            `);
+            }
+          </script>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="pricing_plans">
+      <div class="container">
+        <h5 class="text-info text-center">pricing plan</h5>
+        <h3 class="display-4 text-center mb-4">
+          Pricing Plan for CCTV <br />
+          Security Services
+        </h3>
+        <div class="row pt-3">
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card border-primary">
+              <div class="card-header text-center py-3 bg-primary text-white">
+                <h3>basic plan</h3>
+                <h3><sup>$</sup>49<sub style="font-size: 16px">/mo</sub></h3>
+              </div>
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">one alarm system</li>
+                  <li class="list-group-item">one CCTV camera</li>
+                  <li class="list-group-item">Local CCTV footage storage</li>
+                  <li class="list-group-item">NOT centrally monitored</li>
+                </ul>
+              </div>
+
+              <div class="card-footer text-center"></div>
+              <a href="#" class="btn btn-primary">buy now</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card border-danger">
+              <div class="card-header text-center py-3 bg-danger text-white">
+                <h3>standard plan</h3>
+                <h3><sup>$</sup>49<sub style="font-size: 16px">/mo</sub></h3>
+              </div>
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">one alarm system</li>
+                  <li class="list-group-item">two CCTV camera</li>
+                  <li class="list-group-item">
+                    Online and local CCTV footage storag
+                  </li>
+                  <li class="list-group-item">NOT centrally monitored</li>
+                </ul>
+              </div>
+
+              <div class="card-footer text-center"></div>
+              <a href="#" class="btn btn-danger">buy now</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card border-primary">
+              <div class="card-header text-center py-3 bg-primary text-white">
+                <h3>Deluxe plan</h3>
+                <h3><sup>$</sup>49<sub style="font-size: 16px">/mo</sub></h3>
+              </div>
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">one alarm system</li>
+                  <li class="list-group-item">four CCTV camera</li>
+                  <li class="list-group-item">
+                    Online and local CCTV footage storag
+                  </li>
+                  <li class="list-group-item">centrally monitored</li>
+                </ul>
+              </div>
+
+              <div class="card-footer text-center"></div>
+              <a href="#" class="btn btn-primary">buy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="team">
+      <div class="container">
+        <h5 class="text-info text-center">team members</h5>
+        <h3 class="display-4 text-center">our professional team members</h3>
+        <div class="row pt-2">
+          <div class="col-md-4 col-sm-6 mb-2">
+            <div class="card bg-primary text-center text-white border-danger">
+              <img src="./assets/images/team1.PNG" />
+              <h4 class="my-3">eng person1</h4>
+              <h5 mb-3>mern stack</h5>
+              <div class="d-flex justify-content-around pb-3">
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2">
+            <div class="card bg-primary text-center text-white border-danger">
+              <img src="./assets/images/team2.PNG" />
+              <h4 class="my-3">eng person2</h4>
+              <h5 mb-3>mern stack</h5>
+              <div class="d-flex justify-content-around pb-3">
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2">
+            <div class="card bg-primary text-center text-white border-danger">
+              <img src="./assets/images/team3.PNG" />
+              <h4 class="my-3">eng person3</h4>
+              <h5 mb-3>mern stack</h5>
+              <div class="d-flex justify-content-around pb-3">
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-3" id="testamonials">
+      <h5 class="text-info text-center">testamonials</h5>
+      <h3 class="display-5 fw-bold mb-4 text-center">
+        What People Say About <br />
+        Our Services
+      </h3>
+      <div class="row pt-5">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card my-4 text-center bg-primary bg-opacity-10 border-0">
+            <img
+              style="margin-top: -40px"
+              class="mx-auto rounded-circle"
+              src="./assets/images/team1.PNG"
+            />
+            <p class="my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              repellendus unde non delectus quaerat earum laudantium veniam
+              adipisci vero iste dolorem fugit cum ut placeat doloremque
+              molestiae, porro itaque facere.
+            </p>
+            <h3 class="mb-3">person1</h3>
+            <h4 class="mb-3 text-primary">mern</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="card my-4 text-center bg-primary bg-opacity-10 border-0">
+            <img
+              style="margin-top: -40px"
+              class="mx-auto rounded-circle"
+              src="./assets/images/team2.PNG"
+            />
+            <p class="my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              repellendus unde non delectus quaerat earum laudantium veniam
+              adipisci vero iste dolorem fugit cum ut placeat doloremque
+              molestiae, porro itaque facere.
+            </p>
+            <h3 class="mb-3">person2</h3>
+            <h4 class="mb-3 text-primary">mern</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="card my-4 text-center bg-primary bg-opacity-10 border-0">
+            <img
+              style="margin-top: -40px"
+              class="mx-auto rounded-circle"
+              src="./assets/images/team3.PNG"
+            />
+            <p class="my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              repellendus unde non delectus quaerat earum laudantium veniam
+              adipisci vero iste dolorem fugit cum ut placeat doloremque
+              molestiae, porro itaque facere.
+            </p>
+            <h3 class="mb-3">person3</h3>
+            <h4 class="mb-3 text-primary">mern</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="contact">
+      <div class="container">
+        <h5 class="text-primary text-center">contact</h5>
+        <h3 class="text-center display-4 fw-bold">
+          Write Yor Message <br />
+          Contact Us
+        </h3>
+        <div class="row">
+          <div class="col-md-8">
+            <form action="" method="" class="form text-center">
+              <div class="input-group mb-3">
+                <span class="input-group-text text-primary"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+                <input
+                  class="form-control form-control-lg"
+                  type="text"
+                  placeholder="your name"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text text-primary"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+                <input
+                  class="form-control form-control-lg"
+                  type="email"
+                  placeholder="your email"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text text-primary">
+                  <i class="fa-solid fa-note-sticky"></i>
+                </span>
+                <textarea
+                  class="form-control form-control-lg"
+                  rows="3"
+                  placeholder="your message"
+                ></textarea>
+              </div>
+              <input class="btn btn-primary btn-lg w-100 mb-3" type="submit" />
+            </form>
+          </div>
+
+          <div class="col-md-4">
+            <img class="w-100" src="./assets/images/contactimg.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-nav bg-dark py-5 d-flex text-center">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-4 col-sm-2 text-center text-white">
+        <ul>
+          <h4>services</h4>
+
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing Plans</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-2 text-white">
+        <ul>
+          <h4>quick links</h4>
+
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-2 text-white">
+        <ul>
+          <h4>contact</h4>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Team</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <footer class="bg-dark py-3 text-center text-white">
+      <p>&copy; 2024 mariam. all rights reserved.</p>
+    </footer>
+  </body>
+  <script src="./assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/be6c77b871.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
